@@ -23,26 +23,26 @@ namespace TelRehber
         public Rehber()
         {
 
-            isimler.Add("Necla");
-            soyisimler.Add("Kaya");
+            isimler.Add("NECLA");
+            soyisimler.Add("KAYA");
             nums.Add(11111);
 
-            isimler.Add("Kaya");
-            soyisimler.Add("KaraKaya");
+            isimler.Add("KAYA");
+            soyisimler.Add("KARAKAYA");
             nums.Add(22222);
 
-            isimler.Add("Sarp");
-            soyisimler.Add("Para");
+            isimler.Add("SARP");
+            soyisimler.Add("PARA");
             nums.Add(33333);
 
-            isimler.Add("Sarp");
-            soyisimler.Add("Kaymaz");
+            isimler.Add("SARP");
+            soyisimler.Add("KAYMAZ");
             nums.Add(44444);
 
 
-            isimler.Add("Alp");
+            isimler.Add("ALP");
             nums.Add(55555);
-            soyisimler.Add("Kayar");
+            soyisimler.Add("KAYAR");
 
 
 
