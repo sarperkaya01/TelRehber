@@ -376,6 +376,60 @@ namespace TelRehber
                 altnum.Clear();
            
         }
+        public int sayısı() 
+        {
+            int x = altisim.Count;
+            return x;
+        }
+        public bool altVarMİ(string name) 
+        {
+            bool x = false;
+            bool kontrol = true;
+            int sayac = 0;
+            while (kontrol)
+            {
+                
+                foreach (var item in altSoy)
+                {
+                    if (kontrol == false)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        x = item.Equals(name);
+
+                        if (x == true)
+                        {
+                            kontrol = false;
+                            break;
+                        }
+                        else
+                        {
+                            sayac++;
+                        }
+                    }
+
+                }
+                if (sayac == altSoy.Count)
+                {
+
+
+                    kontrol = false;
+                    x = false;
+                }
+                else
+                {
+                    kontrol = false;
+                }
+
+
+
+            }
+
+
+            return x;
+        }
 
 
     }
